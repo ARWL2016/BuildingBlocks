@@ -5,6 +5,10 @@ app.get('/', function(request, response) {
     response.send("Hello");
 });
 
+app.get('/cities', function (request, response) {
+     response.json("Hello");
+});
+
 
 module.exports = app; 
  
